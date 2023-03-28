@@ -9,7 +9,7 @@ import {
   AcademicCapIcon,
 } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
-import benefitsPageGraphic from "@/Assets/benefitsPageGraphic.png";
+import BenefitsPageGraphic from "@/Assets/BenefitsPageGraphic.png";
 
 const benefits: Array<benefitCardType> = [
   {
@@ -89,7 +89,7 @@ export const Benefits = ({ setSelectedPage }: navProps) => {
           {/* GRAPHIC */}
           <img
             className="mx-auto"
-            src={benefitsPageGraphic}
+            src={BenefitsPageGraphic}
             alt="benefits-page-graphic"
           />
           {/* DESCRIPTION */}
