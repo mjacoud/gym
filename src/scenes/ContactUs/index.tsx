@@ -24,7 +24,6 @@ export const ContactUs = ({ setSelectedPage }: navProps) => {
     <section id="contactus" className="mx-auto flex w-5/6 pt-24">
       <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
-        class="w-[70%]"
       >
         {/* HEADER */}
         <motion.div
