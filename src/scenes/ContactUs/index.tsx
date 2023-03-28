@@ -1,7 +1,7 @@
 import { navProps } from "@/util/types";
 import { motion } from "framer-motion";
 import { useForm } from "react-hook-form";
-import ContactUsPageGraphic from "@/assets/ContactUsPageGraphic.png";
+import ContactUsPageGraphic from "@/Assets/ContactUsPageGraphic.png";
 import { SelectedPage } from "@/util/enums";
 import { Htext } from "@/components/Htext";
 
