@@ -1,7 +1,7 @@
 import { navProps } from "@/util/types";
 import { motion } from "framer-motion";
 import { useForm } from "react-hook-form";
-import contactUsPageGraphic from "@/assets/contactUsPageGraphic.png";
+import ContactUsPageGraphic from "@/assets/ContactUsPageGraphic.png";
 import { SelectedPage } from "@/util/enums";
 import { Htext } from "@/components/Htext";
 
@@ -140,7 +140,7 @@ export const ContactUs = ({ setSelectedPage }: navProps) => {
         >
           <div className="w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1] md:before:content-evolvetext">
             <img
-              src={contactUsPageGraphic}
+              src={ContactUsPageGraphic}
               alt="contact-us-page-graphic"
               className="w-full"
             />
